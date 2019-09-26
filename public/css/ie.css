@@ -1,0 +1,74 @@
+body{
+	overflow-X: hidden;
+}
+.navbar-nav > li:hover .dropdown-menu{
+    display: block;
+    left: auto;
+	right: 0px;
+	min-width: 190px;
+	visibility: visible;
+}
+.topmenu-outer .navbar-nav > li .dropdown-menu{
+	margin-top: 0px!important;
+	min-width: 100px!important;
+}
+select.form-control, .dataTables_wrapper .dataTables_length select {
+	background-image: none;
+	padding-right: 10px !important
+}
+.navbar-nav > li.profile-dropdown .dropdown-menu{
+	min-width: 100px;
+}
+
+.page-sidebar-fixed.page-header-fixed .page-inner{
+	float: left;
+	width: 100%;
+}
+.page-footer{
+	top: auto!important;
+	bottom: 0px!important;
+}
+.cd-nav li{
+    height: 180px;
+	min-height: 180px;
+}
+.cd-nav span{
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+.cd-nav p{
+	position: relative;
+	left: 0px;
+	top: 0px;
+	font-size: 18px;
+}
+.cd-nav li a{
+	text-decoration: none;
+}
+.accordion-menu.menu li a{
+	text-align: left;
+}
+.sidebar .slimScrollDiv{
+	height: 100%!important;
+}
+.top5{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	padding: 5px 15px;
+	background: #e9edf2;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+.Dark-table tr:first-child, .Dark-table tr:first-child + tr, .Dark-table tr:first-child + tr + tr, .Dark-table tr:first-child + tr + tr + tr, .Dark-table tr:first-child + tr + tr + tr + tr{
+	background: #e9edf2;
+	background-color: #e9edf2!important;
+    font-weight: 600;
+}
+.CreateSurvey.form-horizontal .control-label{
+	text-align: left;
+}
+.OpenModalBox + .OpenModalBox{
+	display: none;
+}
